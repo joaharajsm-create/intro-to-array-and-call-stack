@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>array in js</title>
+    <title>object 1</title>
 </head>
 <body>
-    <h2>javascript array</h2>
+    <h2>javascript obkects and its properties</h2>
+    <p>there are two different waysto access an object property</p>
+    <p>you can use .property or ["property"].</p>
     <p id="demo"></p>
     <script>
-        var cars = [
-            "Coding",
-            "Magic",
-            "Learn"
-        ];
-        document.getElementById("demo").innerHTML = cars[2];
-        </script>
+    var person = {
+        firstName: "I",
+        age: 20,
+    }; 
+    document.getElementById("demo").innerHTML = person.firstName + " am " + person.age + " years old ";
+    </script>
 </body>
 </html>
